@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/pattern-background-mobile.svg) no-repeat center;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e8ff;
+}
+
+main {
+    width: 300px;
+    height: 500px;
+    margin: auto auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.summary-order {
+    margin: 16px;
+    text-align: center;
+}
+
+.summary-order h1 {
+    color: #1d274a;
+    font-weight: 900;
+}
+
+.summary-order p {
+    color: #9097ab;
+    font-weight: 500;
+}
+
+.subscription {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    background-color: #f8f9fd;
+    padding: 10px;
+    width: 90%;
+    border-radius: 8px;
+    margin: 16px auto;
+}
+
+.subscription .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon .prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon img, strong {
+    display: inline-block;
+    margin-right: 15px;
+    color: #1d274a;
+    font-size: 16px;
+}
+
+.icon .prices small {
+    color: #8a90a8;
+}
+
+.manage-subscription a {
+    font-weight: 700;
+    color: #4d43ad;
+    cursor: pointer;
+}
+
+.manage-subscription a:active {
+    color: #766cf1;
+    text-decoration: none;
+}
+
+.account-buttons button {
+    display: block;
+    width: 90%;
+    margin: 16px auto;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.account-buttons #payment {
+    background-color: #382ae1;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px #e9e7fd;
+}
+
+.account-buttons #payment:active {
+    background-color: #766cf1;
+}
+
+.account-buttons #cancellation {
+    color: #9097ab;
+    background-color: transparent;
+}
+
+.account-buttons #cancellation:active {
+    color: #1d274a;
+}
+
+@media(min-width: 768px) {
+    body {
+        background: url(images/pattern-background-desktop.svg) no-repeat;
+        background-size: 100%;
+        background-position: top;
+        background-origin: border-box;
+        background-color: #e0e8ff;
+    }
+
+    main {
+        width: 400px;
+        height: 550px;
+    }
+}
