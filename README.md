@@ -2,6 +2,8 @@
 
 An HTML & CSS Frontend Mentor challenge for the purpose of practicing. A mockup is given and has to be reproduced as close as possible to the original. Responsive design, mobile first.
 
+Link to the challenge: https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
+
 **Desktop Version**
 
 ![ztpxtbfhkp1af0guaylg](https://github.com/Vasiliki-Georgiou/Order_Summary_Component_HTML_CSS_FrontEnd_Mentor_Challenge/assets/113369011/3268a27d-637e-4723-b590-cc1b925b84f6)
